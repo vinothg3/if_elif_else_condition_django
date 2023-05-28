@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            background-color: blue;
+
+        }
+        h1
+        {
+            color: aqua;
+        }
+        h3
+        {
+            color: burlywood;
+
+        }
+        h2
+        {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <h1>THIS HTML PAGE IS USING IF AND ELIF AND ELSE CONDITION </h1>
+    <h3>a,b,c=40,60,90</h3>
+    {% if a > b %}
+    <h2>a is a heist value:{{a}}</h2>
+    {% elif b > c %}
+    <h2>b is a heist value: {{b}}</h2>
+    {% else %}
+    <h2>c is a heist value: {{c}}</h2>
+    {% endif %}
+    </center>
+</body>
+</html>
